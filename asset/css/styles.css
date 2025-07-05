@@ -17,7 +17,7 @@ body {
     background-color: #f1f1f1;
 }
 
-.container {
+.pallete {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -29,7 +29,7 @@ body {
     margin: 20px;
 }
 
-.container__first-pallete {
+.container__pallete {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -38,13 +38,16 @@ body {
     margin: 20px;    
 }
 
-.container__first-pallete__color {
+.first-color,
+.second-color,
+.third-color {
     width: 100px;
     height: 100px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    padding: 20px;
     margin: 10px;
     border-radius: 4px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -52,7 +55,22 @@ body {
     transition: all 0.2s ease-in-out;
 }
 
-.container__first-pallete__color:hover {
+.hover__color:hover {
     transform: scale(1.1);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.first-color {
+    background-color: #FF5733;
+    color: #f1f1f1;
+}
+
+.second-color {
+    background-color: #33ff57;
+    color: #f1f1f1;
+}
+
+.third-color {
+    background-color: #3357ff;
+    color: #f1f1f1;
 }
